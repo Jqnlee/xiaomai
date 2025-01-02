@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mai's Online Course</title>
+  <style>
+    body {
+      font-family: 'Trebuchet MS', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background: #1e3a5f;
+      color: #ffffff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    .intro {
+      background-color: #5a8a97;
+      color: white;
+      padding: 40px;
+      text-align: left;
+      line-height: 1.8;
+    }
+
+    nav {
+      background: #c88d6f;
+      color: #fff;
+      padding: 15px;
+      text-align: center;
+      font-size: 1.1rem;
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 0 15px;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ffd700;
+    }
+
+    .maiposter {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px 0;
+    }
+
+    .maiposter img {
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .marketing-project {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 20px;
+    }
+
+    .project-card {
+      background: #B9CFBC;
+      margin: 15px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 300px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .project-card h3 {
+      font-size: 1.2rem;
+      margin: 15px 0;
+      color: #333;
+    }
+
+    .project-card img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      flex: 1;
+    }
+
+    .course-section {
+      margin-bottom: 20px;
+    }
+
+    .course-section h2 {
+      color: #1e3a5f;
+      font-size: 1.5rem;
+      border-bottom: 2px solid #c88d6f;
+      padding-bottom: 5px;
+    }
+
+    .course-section p {
+      line-height: 1.6;
+      margin: 10px 0;
+    }
+
+    footer {
+      background: #1e3a5f;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      font-size: 0.9rem;
+    }
+
+    .testimonials {
+      background: #f4f4f4;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .testimonials h2 {
+      font-size: 1.5rem;
+      color: #1e3a5f;
+    }
+
+    .testimonial {
+      margin: 15px;
+      padding: 15px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      text-align: left;
+    }
+
+    .testimonial p {
+      margin: 10px 0;
+    }
+
+    .testimonial strong {
+      color: #1e3a5f;
+    }
+
+    .faq {
+      padding: 20px;
+    }
+
+    .faq h2 {
+      font-size: 1.5rem;
+      color: #1e3a5f;
+    }
+
+    .faq-item {
+      margin-bottom: 15px;
+    }
+
+    .faq-item h3 {
+      font-size: 1.2rem;
+      color: #333;
+    }
+
+    .faq-item p {
+      margin: 5px 0 0;
+      line-height: 1.6;
+    }
+  </style>
+  <meta http-equiv="refresh" content="0; url=http://newurl.com" />
+<link rel="canonical" href="http://newurl.com" />
+</head>
+<body>
+  <header>
+    <h1>小麥多媒體，帶你愛上 Adobe</h1>
+  </header>
+
+  <div class="maiposter">
+    <img src="期末專案海報.png" width="700" height="500" alt="小麥海報">
+  </div>
+  <div class="intro">
+    <p>
+      「多媒體與程式設計軟體」課程宗旨在培養學生使用多媒體軟體及程式設計上的基礎應用能力。
+      <br>課程共分為四個主題：圖像編輯、影像剪輯、程式設計、及文書處理等，並透過實際演練操作及技巧分享討論的教學方式，讓學生能獲得以下實作能力：
+    </p>
+    <ul>
+      <li>對資訊領域的各類軟體有較完整的初步了解，並能加以比較分析</li>
+      <li>知悉在不同的工作中如何去選擇不同的支援工具</li>
+      <li>透過實作的方式，提升使用多媒體的信心</li>
+      <li>藉由團隊合作的專案實作，培養領導、組織、溝通等能力</li>
+    </ul>
+  </div>
+  <nav>
+    <a href="#classintro">Intro</a>
+    <a href="#pr">Premiere Pro</a>
+    <a href="#adobe">Adobe</a>
+    <a href="#html">HTML</a>
+    <a href="#css">CSS</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#faq">FAQ</a>
+  </nav>
+
+  <div class="marketing-project" id="classintro">
+    <div class="project-card">
+      <h3>全面掌握多媒體與程式設計技能，開啟職場新篇章</h3>
+      <img src="okkko.webp" alt="Marketing 1">
+    </div>
+
+    <div class="project-card">
+      <h3>打開職場新視野，學會多媒體與程式設計的核心技能</h3>
+      <img src="plpl.webp" alt="Marketing 2">
+    </div>
+
+    <div class="project-card">
+      <h3>從基礎到精通，助你成為行業專才</h3>
+      <img src="333.webp" alt="Marketing 3">
+    </div>
+
+    <div class="project-card">
+      <h3>跨足數位領域，學會運用多媒體與程式設計的強大工具</h3>
+      <img src="444.webp" alt="Marketing 4">
+    </div>
+
+    <div class="project-card">
+      <h3>不懂程式也能輕鬆上手，設計出屬於你的數位創作！</h3>
+      <img src="555.webp" alt="Marketing 5">
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- Premiere Pro Section -->
+    <div class="course-section" id="pr">
+      <h2>Premiere Pro (PR)</h2>
+      <img src="prpr.svg.png" width="60" height="60">
+      <p>學習使用 Premiere Pro 進行視頻編輯的基礎知識。本課程將全面介紹時間軸編輯、特效應用、轉場設置以及如何導出視頻。不論是初學者或是希望提升技能的人，我們都能幫助你熟悉 Premiere Pro 的核心功能，從剪輯片段到添加動態效果，確保你的影視作品更加吸引人！此外，還將涵蓋格式選擇、色彩校正以及音效處理，讓作品在各種平台都能脫穎而出！</p>
+    </div>
+
+    <div class="course-section" id="adobe">
+      <h2>Adobe</h2>
+      <img src="adobe.svg.png" width="60" height="60">
+      <p>本課程主要以圖形設計、照片編輯以及動態圖形創作為核心，為你提供全面的技能。不論你是想創建吸引人的視覺效果，還是想讓靜態設計充滿生命力，我們帶你從基礎開始，一步步深入學習這些工具的核心功能。此外，課程還會涵蓋實用的技巧與實際案例，幫助你快速將所學應用於實際項目中。</p>
+    </div>
+
+    <div class="course-section" id="html">
+      <h2>HTML</h2>
+      <img src="images-2.png" width="60" height="60">
+      <p>從 HTML 開始您的網頁開發旅程！學習如何構建網頁結構，添加標題、段落、圖片和鏈接。本課程為初學者設計，將帶你全面了解 HTML 的基礎知識，幫助您建立強大的網頁設計基石。我們將一步步講解如何使用 HTML 元素組織內容，使你的網站更具可讀性和實用性。此外，你還會學到如何編寫清楚且符合標準的程式碼，為未來學習 CSS 和 JavaScript 奠定良好基礎。本課程還包括實際案例和練習，讓您在動手中鞏固所學知識。現在就加入我們！</p>
+    </div>
+
+    <div class="course-section" id="css">
+      <h2>CSS</h2>
+      <img src="ppppp.png" width="50" height="60">
+      <p>學習如何應用顏色、字體、佈局以及響應式設計，使你的網站更具視覺吸引力。本課程專為希望提升網頁設計技能的學員設計，帶你深入探索 CSS 的基礎和進階應用。課程涵蓋如何使用顏色方案增強視覺效果，以及調整字體樣式等。此外，你還會學到如何創建靈活的版面，通過系統和模型實現流暢的設計，確保網站在各種設備上的完美顯現，幫助您打造現代化、兼具美觀與功能的網站！</p>
+    </div>
+
+    <div class="testimonials" id="testimonials">
+      <h2>反饋</h2>
+      <div class="testimonial">
+        <p><strong>李同學:</strong> 這門課程幫助我學會了如何使用多媒體軟體進行設計和編輯，實在太棒了！</p>
+      </div>
+      <div class="testimonial">
+        <p><strong>吳同學:</strong> 我最喜歡的是課程內容的實用性，學完後立刻可以應用在工作中。</p>
+      </div>
+      <div class="testimonial">
+        <p><strong>張同學:</strong> 課程設計非常用心，老師也很有耐心解答我的問題，推薦給大家！</p>
+      </div>
+    </div>
+
+    <div class="faq" id="faq">
+      <h2>FAQ</h2>
+      <div class="faq-item">
+        <h3>這門課適合初學者嗎？</h3>
+        <p>是的，我們的課程內容專為初學者設計，幫助您從零基礎開始學習。</p>
+      </div>
+      <div class="faq-item">
+        <h3>是否需要購買額外的軟體？</h3>
+        <p>不需要，我們提供免費軟體的試用版供學員使用。</p>
+      </div>
+      <div class="faq-item">
+        <h3>可以在線學習嗎？</h3>
+        <p>當然可以，我們的課程內容完全支援在線學習，您可以隨時隨地開始學習。</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Mai's Online Courses | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
